@@ -5,6 +5,19 @@
     background-color: #449ec9;;
 }
 
+.wallpaper {
+    background-image: url('https://r4.wallpaperflare.com/wallpaper/228/390/352/cordillera-natualeza-nieve-wallpaper-ab16fc3d4321af9925643b29fd6cecb0.jpg');
+    height: 200px;
+    background-position: 0 -81px;
+    background-size: cover;
+}
+
+@media screen and (max-width: 1000px) {
+    .wallpaper {
+	background-position: 0 0;
+    }
+}
+
 .container {
     width: 1000px;
     margin: 0 auto;
